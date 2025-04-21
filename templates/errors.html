@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error - Whiteboard Capture System</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+        .error-container {
+            max-width: 600px;
+            margin: 100px auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 0.5rem;
+            box-shadow: var(--shadow-md);
+            text-align: center;
+        }
+        
+        .error-icon {
+            font-size: 3rem;
+            color: var(--danger-color);
+            margin-bottom: 1rem;
+        }
+        
+        .error-message {
+            margin-bottom: 2rem;
+        }
+        
+        .btn-container {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <div class="error-icon">⚠️</div>
+        <h1>Oops!</h1>
+        <div class="error-message">
+            <p>{{ message }}</p>
+        </div>
+        <div class="btn-container">
+            <a href="/" class="btn-primary">Go to Home</a>
+            <a href="/session/create" class="btn-outline">Create New Session</a>
+        </div>
+    </div>
+</body>
+</html>
