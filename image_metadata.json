@@ -1,1 +1,14 @@
-{"whiteboard_1745235081.png": {"timestamp": 1745235081, "cloudinary_id": "whiteboard_images/whiteboard_1745235081", "url": "https://res.cloudinary.com/dmfzql9gy/image/upload/v1745235083/whiteboard_images/whiteboard_1745235081.png"}, "whiteboard_1745235417.jpg": {"timestamp": 1745235417, "cloudinary_id": "whiteboard_images/whiteboard_1745235417", "url": "https://res.cloudinary.com/dmfzql9gy/image/upload/v1745235419/whiteboard_images/whiteboard_1745235417.jpg"}}
+{
+  "default": {
+    "whiteboard_1745235081.png": {
+      "timestamp": 1745235081,
+      "cloudinary_id": "whiteboard_images/whiteboard_1745235081",
+      "url": "https://res.cloudinary.com/dmfzql9gy/image/upload/v1745235083/whiteboard_images/whiteboard_1745235081.png"
+    },
+    "whiteboard_1745235417.jpg": {
+      "timestamp": 1745235417,
+      "cloudinary_id": "whiteboard_images/whiteboard_1745235417",
+      "url": "https://res.cloudinary.com/dmfzql9gy/image/upload/v1745235419/whiteboard_images/whiteboard_1745235417.jpg"
+    }
+  }
+}
